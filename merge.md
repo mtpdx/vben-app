@@ -24,7 +24,7 @@ git restore --source=HEAD --staged --worktree .dockerignore
 
 # 4. 检查变更，确认无误后提交
 git add -A
-git commit -am "sync: merge from main (exclude ...)"
+git commit -am "chore: sync merge from main (exclude ...)"
 
 ```
 
