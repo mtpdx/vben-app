@@ -237,5 +237,8 @@
     "nolebase",
     "rollup",
     "vitest"
-  ]
+  ],
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  }
 }
