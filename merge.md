@@ -1,4 +1,5 @@
 # merge
+
 合并部分main分支内容到app分支
 
 ```bash
@@ -23,7 +24,7 @@ git restore --source=HEAD --staged --worktree .dockerignore
 
 # 4. 检查变更，确认无误后提交
 git add -A
-git commit -m "sync: merge from main (exclude playground, chang.txt)"
+git commit -am "sync: merge from main (exclude ...)"
 
 ```
 
